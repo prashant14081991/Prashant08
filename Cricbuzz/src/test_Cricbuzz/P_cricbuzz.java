@@ -14,9 +14,9 @@ public class P_cricbuzz {
 	Thread.sleep(5000);
 	
 	
-	WebElement livescore = driver.findElement(By.xpath("(//a[@class='cb-hm-mnu-itm'])[1]"));
-	livescore.click();
-	Thread.sleep(5000);
+//	WebElement livescore = driver.findElement(By.xpath("(//a[@class='cb-hm-mnu-itm'])[1]"));
+//	livescore.click();
+//	Thread.sleep(5000);
 	
 	WebElement Matches = driver.findElement(By.xpath("//a[@id='live-scores-link']"));
 	Matches.click();
