@@ -1,0 +1,3 @@
+module selenium {
+	requires org.openqa.selenium.core;
+}

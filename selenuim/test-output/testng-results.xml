@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[logout from application]]>
+    </line>
+    <line>
+      <![CDATA[logout from application]]>
+    </line>
+    <line>
+      <![CDATA[logout from application]]>
+    </line>
+    <line>
+      <![CDATA[close browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-08T15:27:08 IST" name="Default suite" finished-at="2021-08-08T15:27:32 IST" duration-ms="23334">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T15:27:08 IST" name="Default test" finished-at="2021-08-08T15:27:32 IST" duration-ms="23334">
+      <class name="POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass">
+        <test-method is-config="true" signature="openBRowser()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:08 IST" name="openBRowser" finished-at="2021-08-08T15:27:21 IST" duration-ms="13093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBRowser -->
+        <test-method is-config="true" signature="RefreshBrowser()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:21 IST" name="RefreshBrowser" finished-at="2021-08-08T15:27:25 IST" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshBrowser -->
+        <test-method signature="testScenario_clickOnLOginBtnONly()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:25 IST" name="testScenario_clickOnLOginBtnONly" finished-at="2021-08-08T15:27:25 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario_clickOnLOginBtnONly -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:25 IST" name="logoutFromApp" finished-at="2021-08-08T15:27:25 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScenario_clickOnLOginBtnONly status=SUCCESS method=kite_test1$kite_testClass.testScenario_clickOnLOginBtnONly()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[logout from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="RefreshBrowser()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:25 IST" name="RefreshBrowser" finished-at="2021-08-08T15:27:28 IST" duration-ms="3178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshBrowser -->
+        <test-method signature="testScenario_enterOnlyPSWD()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:28 IST" name="testScenario_enterOnlyPSWD" finished-at="2021-08-08T15:27:28 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario_enterOnlyPSWD -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:28 IST" name="logoutFromApp" finished-at="2021-08-08T15:27:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScenario_enterOnlyPSWD status=SUCCESS method=kite_test1$kite_testClass.testScenario_enterOnlyPSWD()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[logout from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="RefreshBrowser()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:28 IST" name="RefreshBrowser" finished-at="2021-08-08T15:27:32 IST" duration-ms="3165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshBrowser -->
+        <test-method signature="testScenario_enterOnlyUN()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:32 IST" name="testScenario_enterOnlyUN" finished-at="2021-08-08T15:27:32 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario_enterOnlyUN -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:32 IST" name="logoutFromApp" finished-at="2021-08-08T15:27:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScenario_enterOnlyUN status=SUCCESS method=kite_test1$kite_testClass.testScenario_enterOnlyUN()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[logout from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass@25084a1e]" started-at="2021-08-08T15:27:32 IST" name="CloseBrowser" finished-at="2021-08-08T15:27:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- POM_DDF_TESTNG_BaseClass_utilityClass.kite_test1$kite_testClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
