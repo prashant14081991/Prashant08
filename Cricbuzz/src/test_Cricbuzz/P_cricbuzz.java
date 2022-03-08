@@ -18,6 +18,11 @@ public class P_cricbuzz {
 	livescore.click();
 	Thread.sleep(5000);
 	
+	
+	WebElement commentry = driver.findElement(By.xpath("(//a[@class='cb-hm-mnu-itm'])[1]"));
+	commentry.click();
+	Thread.sleep(5000);
+	
 	WebElement Matches = driver.findElement(By.xpath("//a[@id='live-scores-link']"));
 	Matches.click();
 	Thread.sleep(5000); 
